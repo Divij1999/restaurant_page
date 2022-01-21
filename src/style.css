@@ -1,0 +1,73 @@
+* {
+    margin:0;
+}
+
+body {
+    height:100vh;
+    background-image: url("./tavern2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 100vw;
+    position:fixed;
+    background-color: rgba(0,0,0);
+    color: white;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 2.5em;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    border-bottom: 2px solid white;
+    padding-bottom:20px;
+}
+
+.navItem {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.menu {
+    display:flex;
+    justify-content: center;
+    width:80vw;
+    flex-wrap:wrap;
+    padding: 100px 0px;
+    gap: 120px;
+    background-image: url(./parchment.jpg);
+}
+
+.dish {
+    display:flex;
+    flex-direction: column;
+    width:650px;
+    height:300px;
+    gap:10px;
+    align-items: center;
+    font-style: italic;
+}
